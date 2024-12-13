@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-touch';
+  data={
+    name:"Harshid",
+    place:"Malappuram",
+    age:27
+  }
+  public name="HARSHID BASIL"
 }
