@@ -8,4 +8,19 @@
 <p>HI FRENDS {{Str}}</p>
 <button (click)="increament()">Increament</button>
 <button (click)="decreament()">Decreament</button>
+
+<table>
+    <thead>
+        <th>name</th>
+        <th>age</th>
+        <th>place</th>
+    </thead>
+    <tbody *ngFor="let item of dataOFArray">
+        <tr>
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.place}}</td>
+        </tr>
+    </tbody>
+</table>
 <router-outlet />
