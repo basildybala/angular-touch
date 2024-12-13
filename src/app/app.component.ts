@@ -15,4 +15,13 @@ export class AppComponent {
     age:27
   }
   public name="HARSHID BASIL"
+  public Str=0
+  increament() {
+    this.Str=++this.Str
+    console.log(this.Str)
+  }
+  decreament(){
+    if(this.Str ===0) return
+    this.Str=-- this.Str
+  }
 }
